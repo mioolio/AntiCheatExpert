@@ -1,0 +1,26 @@
+# ACE-BOOT 日志密钥提取（WinDbg 脚本）
+# 用法：内核调试会话里 kd> $$>a< tools\log_kd.txt
+# 目标：在日志头构造点把上下文里的 0x80 字节块 dump 出来，作为候选密钥
+
+.shell -ci "echo ==== 1. 断在日志追加与上下文初始化 ===="
+bp 0x140001E40
+bp 0x1400486D0
+bp 0x140048AE4
+
+g
+
+.shell -ci "echo ==== 2. 命中 0x48AE4 后执行以下命令（手工） ===="
+.shell -ci "echo   r rbp          ; 日志上下文基址"
+.shell -ci "echo   dq rbp+0xf0 L4 ; magic 0x013525DD / 长度 0x118 / 标志 0x01000800"
+.shell -ci "echo   db rbp+0x100 L80 ; 候选密钥块（0x80 字节）"
+.shell -ci "echo   db rbp+0x180 L80 ; 第二块（若上下文更大）"
+
+.shell -ci "echo ==== 3. 校验：把 dump 出的 0x80 字节存文件后跑 ===="
+.shell -ci "echo   python tools\log_crypt.py --key-file key.bin"
+.shell -ci "echo   若明文头部出现 DD 25 35 01 即命中 ===="
+
+.shell -ci "echo ==== 4. IOCTL 码表（ACE-BASE） ===="
+.shell -ci "echo   bp 0x1400465C8B ; DEVICE_CONTROL 入口"
+.shell -ci "echo   bp 0x14004A8F74 ; 真实逻辑（.tvm0+0x110F74）"
+.shell -ci "echo   bp nt!IoValidateDeviceIoControlAccess"
+.shell -ci "echo   ; 命中后：dt _IRP poi(@rdx+0xb8) 看 Parameters.DeviceIoControl"
