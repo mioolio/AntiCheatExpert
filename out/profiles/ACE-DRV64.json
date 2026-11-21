@@ -1,0 +1,123 @@
+{
+ "path": "ACE-DRV64.dll",
+ "size": 25075160,
+ "subsystem": 3,
+ "linker": "14.0",
+ "timestamp": 1752400576,
+ "pdb": null,
+ "sections": [
+  [
+   ".text",
+   5062980,
+   0
+  ],
+  [
+   ".rdata",
+   1944330,
+   0
+  ],
+  [
+   ".data",
+   632668,
+   0
+  ],
+  [
+   ".pdata",
+   249636,
+   0
+  ],
+  [
+   ".tls",
+   337,
+   0
+  ],
+  [
+   ".detourc",
+   8688,
+   0
+  ],
+  [
+   ".detourd",
+   24,
+   0
+  ],
+  [
+   ".gfids",
+   3928,
+   0
+  ],
+  [
+   "_RDATA",
+   32560,
+   0
+  ],
+  [
+   ".;9C",
+   11190625,
+   0
+  ],
+  [
+   ".(_]",
+   4936,
+   5120
+  ],
+  [
+   ".A;6",
+   25055644,
+   25055744
+  ],
+  [
+   ".reloc",
+   52,
+   512
+  ],
+  [
+   ".rsrc",
+   9041048,
+   2048
+  ]
+ ],
+ "import_modules": {
+  "WS2_32.dll": 1,
+  "WINMM.dll": 1,
+  "WLDAP32.dll": 1,
+  "CRYPT32.dll": 1,
+  "VERSION.dll": 1,
+  "SHLWAPI.dll": 1,
+  "PSAPI.DLL": 1,
+  "KERNEL32.dll": 6,
+  "USER32.dll": 1,
+  "GDI32.dll": 1,
+  "SHELL32.dll": 1,
+  "ole32.dll": 1,
+  "ADVAPI32.dll": 1,
+  "IPHLPAPI.DLL": 1,
+  "bcrypt.dll": 1,
+  "WINTRUST.dll": 1,
+  "SETUPAPI.dll": 1,
+  "Secur32.dll": 1
+ },
+ "kernel_api": [
+  "ExitProcess",
+  "SetupDiEnumDeviceInfo"
+ ],
+ "win32_hot": [
+  "GetProcAddress",
+  "LoadLibraryA"
+ ],
+ "crypto_api": [
+  "BCryptGenRandom"
+ ],
+ "net_api": [],
+ "strings": {
+  "device": [],
+  "dosdevice": [],
+  "pipe": [],
+  "mutex": [],
+  "registry": [],
+  "driver": [],
+  "dll": [],
+  "url": [],
+  "api": []
+ }
+}

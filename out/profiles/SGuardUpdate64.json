@@ -1,0 +1,183 @@
+{
+ "path": "SGuardUpdate64.exe",
+ "size": 4114904,
+ "subsystem": 2,
+ "linker": "14.0",
+ "timestamp": 1754467125,
+ "pdb": null,
+ "sections": [
+  [
+   ".text",
+   2384306,
+   2384384
+  ],
+  [
+   ".rdata",
+   551762,
+   551936
+  ],
+  [
+   ".data",
+   403052,
+   379904
+  ],
+  [
+   ".pdata",
+   135876,
+   136192
+  ],
+  [
+   ".tls",
+   9,
+   512
+  ],
+  [
+   ".gfids",
+   700,
+   1024
+  ],
+  [
+   ".rsrc",
+   2152,
+   2560
+  ],
+  [
+   ".reloc",
+   27820,
+   28160
+  ],
+  [
+   ".tvm0",
+   618496,
+   618496
+  ]
+ ],
+ "import_modules": {
+  "IPHLPAPI.DLL": 1,
+  "SHLWAPI.dll": 5,
+  "WS2_32.dll": 31,
+  "WLDAP32.dll": 17,
+  "CRYPT32.dll": 7,
+  "KERNEL32.dll": 167,
+  "USER32.dll": 4,
+  "ADVAPI32.dll": 40,
+  "SHELL32.dll": 1,
+  "ntdll.dll": 5
+ },
+ "kernel_api": [
+  "ExitProcess",
+  "ExitThread",
+  "ExpandEnvironmentStringsA",
+  "ExpandEnvironmentStringsW",
+  "RtlCaptureContext",
+  "RtlLookupFunctionEntry",
+  "RtlPcToFileHeader",
+  "RtlUnwindEx",
+  "RtlVirtualUnwind",
+  "SetConsoleCtrlHandler",
+  "SetConsoleMode",
+  "SetCurrentDirectoryW",
+  "SetEndOfFile",
+  "SetEntriesInAclW",
+  "SetEnvironmentVariableA",
+  "SetEvent",
+  "SetFilePointer",
+  "SetFilePointerEx",
+  "SetFileSecurityW",
+  "SetLastError",
+  "SetSecurityDescriptorDacl",
+  "SetServiceObjectSecurity",
+  "SetStdHandle",
+  "SetUnhandledExceptionFilter"
+ ],
+ "win32_hot": [
+  "CreateEventW",
+  "CreateFileA",
+  "CreateFileMappingA",
+  "CreateFileMappingW",
+  "CreateFileW",
+  "CreateMutexA",
+  "CreateMutexW",
+  "CreateServiceW",
+  "CreateThread",
+  "CreateToolhelp32Snapshot",
+  "GetProcAddress",
+  "GetSystemInfo",
+  "GetTickCount",
+  "IsDebuggerPresent",
+  "LoadLibraryA",
+  "LoadLibraryW",
+  "OpenProcess",
+  "OpenProcessToken",
+  "OutputDebugStringA",
+  "OutputDebugStringW",
+  "QueryPerformanceCounter",
+  "ReadFile",
+  "RegOpenKeyExW",
+  "StartServiceW",
+  "WaitForSingleObject",
+  "WaitForSingleObjectEx",
+  "WriteFile"
+ ],
+ "crypto_api": [
+  "CryptAcquireContextW",
+  "CryptCreateHash",
+  "CryptDecrypt",
+  "CryptDestroyHash",
+  "CryptDestroyKey",
+  "CryptEnumProvidersW",
+  "CryptExportKey",
+  "CryptGetProvParam",
+  "CryptGetUserKey",
+  "CryptReleaseContext",
+  "CryptSetHashParam",
+  "CryptSignHashW"
+ ],
+ "net_api": [
+  "WSAIoctl"
+ ],
+ "strings": {
+  "device": [],
+  "dosdevice": [],
+  "pipe": [],
+  "mutex": [
+   "Global\\77775BF5-118C-42EA-8385-3800776F31BA"
+  ],
+  "registry": [
+   "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion"
+  ],
+  "driver": [],
+  "dll": [
+   "mscoree.dll",
+   "ace-safe.dll",
+   "ntdll.dll",
+   "kernel32.dll",
+   "WS2_32.DLL",
+   "IPHLPAPI.DLL",
+   "SHLWAPI.dll",
+   "WS2_32.dll",
+   "WLDAP32.dll",
+   "CRYPT32.dll",
+   "KERNEL32.dll",
+   "USER32.dll",
+   "ADVAPI32.dll",
+   "SHELL32.dll",
+   "cADVAPI32.DLL",
+   "KERNEL32.DLL",
+   "NETAPI32.DLL",
+   "USER32.DLL",
+   "%s.dll"
+  ],
+  "url": [],
+  "api": [
+   "RtlNtStatusToDosError",
+   "RtlDetermineDosPathNameType_U",
+   "RtlDllShutdownInProgress",
+   "RtlCaptureContext",
+   "RtlLookupFunctionEntry",
+   "RtlVirtualUnwind",
+   "RtlPcToFileHeader",
+   "RtlUnwindEx"
+  ]
+ }
+}

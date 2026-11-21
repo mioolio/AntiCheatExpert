@@ -1,0 +1,207 @@
+{
+ "path": "ACE-CSI64.dll",
+ "size": 6317016,
+ "subsystem": 2,
+ "linker": "14.0",
+ "timestamp": 1763960043,
+ "pdb": null,
+ "sections": [
+  [
+   ".text",
+   2107594,
+   2107904
+  ],
+  [
+   ".rdata",
+   823234,
+   823296
+  ],
+  [
+   ".data",
+   59164,
+   46080
+  ],
+  [
+   ".pdata",
+   96156,
+   96256
+  ],
+  [
+   ".gfids",
+   3064,
+   3072
+  ],
+  [
+   ".tls",
+   9,
+   512
+  ],
+  [
+   ".rsrc",
+   1368,
+   1536
+  ],
+  [
+   ".reloc",
+   11108,
+   11264
+  ],
+  [
+   ".tvm0",
+   3215360,
+   3215360
+  ]
+ ],
+ "import_modules": {
+  "KERNEL32.dll": 191,
+  "SHLWAPI.dll": 5,
+  "USERENV.dll": 1,
+  "WTSAPI32.dll": 3,
+  "ntdll.dll": 9,
+  "VERSION.dll": 3,
+  "CRYPT32.dll": 8,
+  "USER32.dll": 19,
+  "ADVAPI32.dll": 16,
+  "SHELL32.dll": 2,
+  "ole32.dll": 3,
+  "WS2_32.dll": 1
+ },
+ "kernel_api": [
+  "ExitProcess",
+  "ExitThread",
+  "ExpandEnvironmentStringsForUserW",
+  "ExpandEnvironmentStringsW",
+  "NtQueryInformationProcess",
+  "NtQueryInformationThread",
+  "NtQuerySystemInformation",
+  "NtQueryVirtualMemory",
+  "RtlAddFunctionTable",
+  "RtlCaptureContext",
+  "RtlDeleteFunctionTable",
+  "RtlLookupFunctionEntry",
+  "RtlPcToFileHeader",
+  "RtlUnwindEx",
+  "RtlVirtualUnwind",
+  "SearchPathW",
+  "SendMessageTimeoutW",
+  "SetEndOfFile",
+  "SetEnvironmentVariableA",
+  "SetEvent",
+  "SetFilePointer",
+  "SetFilePointerEx",
+  "SetLastError",
+  "SetProcessWorkingSetSize",
+  "SetStdHandle",
+  "SetThreadAffinityMask",
+  "SetThreadPriority",
+  "SetUnhandledExceptionFilter"
+ ],
+ "win32_hot": [
+  "CreateEventW",
+  "CreateFileMappingW",
+  "CreateFileW",
+  "CreateMutexW",
+  "CreateThread",
+  "CreateToolhelp32Snapshot",
+  "DeviceIoControl",
+  "GetProcAddress",
+  "GetSystemInfo",
+  "GetTickCount",
+  "GetTickCount64",
+  "IsDebuggerPresent",
+  "LoadLibraryA",
+  "LoadLibraryExW",
+  "LoadLibraryW",
+  "NtQueryInformationProcess",
+  "NtQueryInformationThread",
+  "NtQuerySystemInformation",
+  "NtQueryVirtualMemory",
+  "OpenProcess",
+  "OpenProcessToken",
+  "QueryPerformanceCounter",
+  "ReadFile",
+  "ReadProcessMemory",
+  "RegOpenKeyA",
+  "RegOpenKeyExW",
+  "RegisterWaitForSingleObject",
+  "VirtualAlloc",
+  "VirtualAllocEx",
+  "VirtualProtect",
+  "WaitForSingleObject",
+  "WaitForSingleObjectEx",
+  "WriteFile",
+  "WriteProcessMemory"
+ ],
+ "crypto_api": [
+  "CryptDecodeObject",
+  "CryptMsgClose",
+  "CryptMsgGetParam",
+  "CryptQueryObject"
+ ],
+ "net_api": [],
+ "strings": {
+  "device": [
+   "\\Device\\",
+   "\\Device\\FileInfo"
+  ],
+  "dosdevice": [
+   "\\\\.\\0:"
+  ],
+  "pipe": [],
+  "mutex": [],
+  "registry": [
+   "SYSTEM\\ControlSet001\\Services\\bam\\State\\UserSettings\\"
+  ],
+  "driver": [],
+  "dll": [
+   "combase.dll",
+   "advapi32.dll",
+   "mscoree.dll",
+   "kernel32.dll",
+   "ntdll.dll",
+   "Shell32.dll",
+   "install.dll",
+   "windows\\system32\\ntdll.dll",
+   "d3d11.dll",
+   "windows\\system32\\user32.dll",
+   "dxgi.dll",
+   "tersafe.dll",
+   "ACE-DRV64.dll",
+   "ACE-CSI64.dll",
+   "KERNEL32.dll",
+   "SHLWAPI.dll",
+   "USERENV.dll",
+   "WTSAPI32.dll",
+   "VERSION.dll",
+   "CRYPT32.dll",
+   "USER32.dll",
+   "ADVAPI32.dll",
+   "SHELL32.dll",
+   "ole32.dll",
+   "WS2_32.dll"
+  ],
+  "url": [],
+  "api": [
+   "SeProfileSingleProcessPrivilege",
+   "SeDebugPrivilege",
+   "NtQueryObject",
+   "PsLoadedModuleList",
+   "RtlInitUnicodeString",
+   "NtOpenFile",
+   "NtQuerySystemInformation",
+   "NtDeviceIoControlFile",
+   "RtlPcToFileHeader",
+   "NtQueryInformationFile",
+   "NtCreateFile",
+   "NtQueryVirtualMemory",
+   "NtQueryInformationProcess",
+   "NtQueryInformationThread",
+   "RtlCaptureContext",
+   "RtlLookupFunctionEntry",
+   "RtlVirtualUnwind",
+   "RtlUnwindEx",
+   "RtlAddFunctionTable",
+   "RtlDeleteFunctionTable"
+  ]
+ }
+}

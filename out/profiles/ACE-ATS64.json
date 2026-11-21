@@ -1,0 +1,199 @@
+{
+ "path": "ACE-ATS64.dll",
+ "size": 9214424,
+ "subsystem": 2,
+ "linker": "14.0",
+ "timestamp": 1756881792,
+ "pdb": null,
+ "sections": [
+  [
+   ".text",
+   1263534,
+   1263616
+  ],
+  [
+   ".rdata",
+   665256,
+   665600
+  ],
+  [
+   ".data",
+   73852,
+   51200
+  ],
+  [
+   ".pdata",
+   60144,
+   60416
+  ],
+  [
+   ".gfids",
+   3032,
+   3072
+  ],
+  [
+   ".tls",
+   21,
+   512
+  ],
+  [
+   ".rsrc",
+   1368,
+   1536
+  ],
+  [
+   ".reloc",
+   13300,
+   13312
+  ],
+  [
+   ".tvm0",
+   7143424,
+   7143424
+  ]
+ ],
+ "import_modules": {
+  "ntdll.dll": 11,
+  "KERNEL32.dll": 155,
+  "USER32.dll": 1,
+  "ADVAPI32.dll": 5,
+  "SHLWAPI.dll": 7,
+  "WS2_32.dll": 9,
+  "IPHLPAPI.DLL": 1,
+  "VERSION.dll": 6,
+  "PSAPI.DLL": 3,
+  "CRYPT32.dll": 8,
+  "WINHTTP.dll": 10
+ },
+ "kernel_api": [
+  "ExitProcess",
+  "ExitThread",
+  "NtClose",
+  "NtCreateSection",
+  "NtMapViewOfSection",
+  "NtQuerySystemInformation",
+  "NtUnmapViewOfSection",
+  "RtlCaptureContext",
+  "RtlImageNtHeader",
+  "RtlLookupFunctionEntry",
+  "RtlPcToFileHeader",
+  "RtlUnwindEx",
+  "RtlVirtualUnwind",
+  "SetEndOfFile",
+  "SetEvent",
+  "SetFilePointerEx",
+  "SetLastError",
+  "SetSecurityDescriptorDacl",
+  "SetStdHandle",
+  "SetThreadAffinityMask",
+  "SetThreadPriority",
+  "SetUnhandledExceptionFilter"
+ ],
+ "win32_hot": [
+  "CreateEventW",
+  "CreateFileA",
+  "CreateFileMappingA",
+  "CreateFileMappingW",
+  "CreateFileW",
+  "CreateMutexA",
+  "CreateThread",
+  "GetProcAddress",
+  "GetSystemInfo",
+  "GetTickCount",
+  "IsDebuggerPresent",
+  "LoadLibraryA",
+  "LoadLibraryExW",
+  "LoadLibraryW",
+  "NtQuerySystemInformation",
+  "OpenProcess",
+  "OutputDebugStringW",
+  "QueryPerformanceCounter",
+  "ReadFile",
+  "ReadProcessMemory",
+  "RegisterWaitForSingleObject",
+  "VirtualAlloc",
+  "VirtualProtect",
+  "WaitForSingleObject",
+  "WaitForSingleObjectEx",
+  "WriteFile"
+ ],
+ "crypto_api": [
+  "CryptAcquireContextA",
+  "CryptDecodeObject",
+  "CryptGenRandom",
+  "CryptMsgClose",
+  "CryptMsgGetParam",
+  "CryptQueryObject",
+  "CryptReleaseContext"
+ ],
+ "net_api": [
+  "WSAStringToAddressA",
+  "WinHttpCheckPlatform",
+  "WinHttpCloseHandle",
+  "WinHttpConnect",
+  "WinHttpOpen",
+  "WinHttpOpenRequest",
+  "WinHttpQueryHeaders",
+  "WinHttpReadData",
+  "WinHttpReceiveResponse",
+  "WinHttpSendRequest",
+  "WinHttpSetTimeouts"
+ ],
+ "strings": {
+  "device": [
+   "\\Device\\"
+  ],
+  "dosdevice": [],
+  "pipe": [],
+  "mutex": [],
+  "registry": [],
+  "driver": [],
+  "dll": [
+   "kernel32.dll",
+   "combase.dll",
+   "advapi32.dll",
+   "mscoree.dll",
+   "ntdll.dll",
+   "tersafe.dll",
+   "aceats.dll",
+   "ACECheck.dll",
+   "mono.dll",
+   "ace-ats64.dll",
+   "KERNEL32.dll",
+   "USER32.dll",
+   "ADVAPI32.dll",
+   "SHLWAPI.dll",
+   "WS2_32.dll",
+   "IPHLPAPI.DLL",
+   "VERSION.dll",
+   "PSAPI.DLL",
+   "CRYPT32.dll",
+   "WINHTTP.dll"
+  ],
+  "url": [],
+  "api": [
+   "NtSetInformationRtlInitUnicodeSt\"",
+   "ZwQueryVirtualMemory",
+   "NtSetInformationFile",
+   "NtQuerySection",
+   "NtQuerySemaphore",
+   "NtQueryObject",
+   "NtQuerySystemInformation",
+   "NtQueryTimerResolution",
+   "NtClose",
+   "NtOpenFile",
+   "RtlGetVersion",
+   "RtlAddFunctionTable",
+   "NtUnmapViewOfSection",
+   "NtCreateSection",
+   "RtlImageNtHeader",
+   "NtMapViewOfSection",
+   "RtlCaptureContext",
+   "RtlLookupFunctionEntry",
+   "RtlVirtualUnwind",
+   "RtlPcToFileHeader",
+   "RtlUnwindEx",
+   "IoAdD"
+  ]
+ }
+}

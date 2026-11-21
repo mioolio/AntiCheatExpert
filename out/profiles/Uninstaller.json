@@ -1,0 +1,149 @@
+{
+ "path": "Uninstaller.exe",
+ "size": 904520,
+ "subsystem": 2,
+ "linker": "14.43",
+ "timestamp": 1784613942,
+ "pdb": null,
+ "sections": [
+  [
+   ".text",
+   319576,
+   320000
+  ],
+  [
+   ".rdata",
+   122818,
+   122880
+  ],
+  [
+   ".data",
+   24876,
+   18432
+  ],
+  [
+   ".pdata",
+   15096,
+   15360
+  ],
+  [
+   ".rsrc",
+   412960,
+   413184
+  ],
+  [
+   ".reloc",
+   2604,
+   3072
+  ]
+ ],
+ "import_modules": {
+  "SHLWAPI.dll": 1,
+  "KERNEL32.dll": 123,
+  "USER32.dll": 5,
+  "SHELL32.dll": 3,
+  "ole32.dll": 1,
+  "ADVAPI32.dll": 25,
+  "WININET.dll": 4,
+  "VERSION.dll": 3,
+  "CRYPT32.dll": 7
+ },
+ "kernel_api": [
+  "ExitProcess",
+  "ExitThread",
+  "ExpandEnvironmentStringsW",
+  "RtlCaptureContext",
+  "RtlLookupFunctionEntry",
+  "RtlPcToFileHeader",
+  "RtlUnwind",
+  "RtlUnwindEx",
+  "RtlVirtualUnwind",
+  "SendMessageW",
+  "SetEndOfFile",
+  "SetFileAttributesW",
+  "SetFileInformationByHandle",
+  "SetFilePointer",
+  "SetFilePointerEx",
+  "SetLastError",
+  "SetNamedPipeHandleState",
+  "SetSecurityDescriptorDacl",
+  "SetServiceObjectSecurity",
+  "SetStdHandle",
+  "SetUnhandledExceptionFilter"
+ ],
+ "win32_hot": [
+  "CreateFileW",
+  "CreateMutexW",
+  "CreateProcessW",
+  "CreateServiceW",
+  "CreateThread",
+  "GetProcAddress",
+  "GetTickCount",
+  "InternetReadFile",
+  "IsDebuggerPresent",
+  "LoadLibraryExW",
+  "LoadLibraryW",
+  "OpenProcessToken",
+  "QueryPerformanceCounter",
+  "ReadFile",
+  "RegDeleteKeyW",
+  "RegOpenKeyExW",
+  "RegSetValueExW",
+  "StartServiceW",
+  "WaitForSingleObject",
+  "WriteFile"
+ ],
+ "crypto_api": [
+  "CryptMsgClose",
+  "CryptMsgGetParam",
+  "CryptQueryObject"
+ ],
+ "net_api": [
+  "InternetCloseHandle",
+  "InternetOpenUrlA",
+  "InternetOpenW",
+  "InternetReadFile"
+ ],
+ "strings": {
+  "device": [],
+  "dosdevice": [
+   "\\\\.\\pipe\\ebda72a0-5182-4abc-8d32-0ab95af442e3-%d"
+  ],
+  "pipe": [],
+  "mutex": [
+   "Global\\4907db0b-5164-4f60-af3c-155e6fc47b33-"
+  ],
+  "registry": [
+   "SOFTWARE\\AppDataLow\\",
+   "SYSTEM\\CurrentControlSet\\Services\\ACE-ADVT",
+   "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\"
+  ],
+  "driver": [
+   "ACE-ADVT.sys"
+  ],
+  "dll": [
+   "shell32.dll",
+   "kernel32.dll",
+   "mscoree.dll",
+   "SHLWAPI.dll",
+   "KERNEL32.dll",
+   "USER32.dll",
+   "SHELL32.dll",
+   "ole32.dll",
+   "ADVAPI32.dll",
+   "WININET.dll",
+   "VERSION.dll",
+   "CRYPT32.dll",
+   "ACE-Base64.dll"
+  ],
+  "url": [],
+  "api": [
+   "RtlCaptureContext",
+   "RtlLookupFunctionEntry",
+   "RtlVirtualUnwind",
+   "RtlPcToFileHeader",
+   "RtlUnwindEx",
+   "RtlUnwind"
+  ]
+ }
+}

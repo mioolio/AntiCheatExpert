@@ -1,0 +1,158 @@
+{
+ "path": "SGuardSvc64.exe",
+ "size": 2094552,
+ "subsystem": 2,
+ "linker": "14.0",
+ "timestamp": 1754467109,
+ "pdb": null,
+ "sections": [
+  [
+   ".text",
+   918882,
+   919040
+  ],
+  [
+   ".rdata",
+   206614,
+   206848
+  ],
+  [
+   ".data",
+   48740,
+   39424
+  ],
+  [
+   ".pdata",
+   50820,
+   51200
+  ],
+  [
+   ".gfids",
+   652,
+   1024
+  ],
+  [
+   ".tls",
+   9,
+   512
+  ],
+  [
+   ".rsrc",
+   2152,
+   2560
+  ],
+  [
+   ".reloc",
+   5768,
+   6144
+  ],
+  [
+   ".tvm0",
+   856064,
+   856064
+  ]
+ ],
+ "import_modules": {
+  "USERENV.dll": 2,
+  "SHLWAPI.dll": 5,
+  "WTSAPI32.dll": 1,
+  "WS2_32.dll": 8,
+  "CRYPT32.dll": 7,
+  "KERNEL32.dll": 153,
+  "ADVAPI32.dll": 26,
+  "WINTRUST.dll": 1
+ },
+ "kernel_api": [
+  "ExitProcess",
+  "ExitThread",
+  "ExpandEnvironmentStringsW",
+  "RtlCaptureContext",
+  "RtlLookupFunctionEntry",
+  "RtlPcToFileHeader",
+  "RtlUnwindEx",
+  "RtlVirtualUnwind",
+  "SetCurrentDirectoryW",
+  "SetEndOfFile",
+  "SetEntriesInAclW",
+  "SetEnvironmentVariableA",
+  "SetEvent",
+  "SetFilePointer",
+  "SetFilePointerEx",
+  "SetFileSecurityW",
+  "SetLastError",
+  "SetSecurityDescriptorDacl",
+  "SetServiceStatus",
+  "SetStdHandle",
+  "SetTokenInformation",
+  "SetUnhandledExceptionFilter"
+ ],
+ "win32_hot": [
+  "CreateEventW",
+  "CreateFileA",
+  "CreateFileMappingA",
+  "CreateFileMappingW",
+  "CreateFileW",
+  "CreateMutexA",
+  "CreateMutexW",
+  "CreateProcessAsUserW",
+  "CreateServiceW",
+  "CreateThread",
+  "CreateToolhelp32Snapshot",
+  "GetProcAddress",
+  "GetSystemInfo",
+  "GetTickCount",
+  "IsDebuggerPresent",
+  "LoadLibraryA",
+  "LoadLibraryW",
+  "OpenProcess",
+  "OpenProcessToken",
+  "OutputDebugStringA",
+  "OutputDebugStringW",
+  "QueryPerformanceCounter",
+  "ReadFile",
+  "StartServiceCtrlDispatcherW",
+  "StartServiceW",
+  "WaitForSingleObject",
+  "WaitForSingleObjectEx",
+  "WriteFile"
+ ],
+ "crypto_api": [
+  "CryptMsgClose",
+  "CryptMsgGetParam",
+  "CryptQueryObject"
+ ],
+ "net_api": [],
+ "strings": {
+  "device": [],
+  "dosdevice": [],
+  "pipe": [],
+  "mutex": [],
+  "registry": [],
+  "driver": [],
+  "dll": [
+   "kernel32.dll",
+   "mscoree.dll",
+   "USERENV.dll",
+   "SHLWAPI.dll",
+   "WTSAPI32.dll",
+   "WS2_32.dll",
+   "CRYPT32.dll",
+   "KERNEL32.dll",
+   "ADVAPI32.dll",
+   "WINTRUST.dll"
+  ],
+  "url": [],
+  "api": [
+   "SeTcbPrivilege",
+   "SeDebugPrivilege",
+   "RtlNtStatusToDosError",
+   "RtlDetermineDosPathNameType_U",
+   "RtlDllShutdownInProgress",
+   "RtlCaptureContext",
+   "RtlLookupFunctionEntry",
+   "RtlVirtualUnwind",
+   "RtlPcToFileHeader",
+   "RtlUnwindEx"
+  ]
+ }
+}

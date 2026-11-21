@@ -1,0 +1,117 @@
+{
+ "path": "Uninstall64.exe",
+ "size": 499032,
+ "subsystem": 2,
+ "linker": "14.16",
+ "timestamp": 1663658145,
+ "pdb": null,
+ "sections": [
+  [
+   ".text",
+   231080,
+   231424
+  ],
+  [
+   ".rdata",
+   93792,
+   94208
+  ],
+  [
+   ".data",
+   16704,
+   9728
+  ],
+  [
+   ".pdata",
+   15600,
+   15872
+  ],
+  [
+   ".rsrc",
+   132520,
+   132608
+  ],
+  [
+   ".reloc",
+   3280,
+   3584
+  ]
+ ],
+ "import_modules": {
+  "KERNEL32.dll": 121,
+  "USER32.dll": 4,
+  "SHELL32.dll": 2,
+  "ole32.dll": 1,
+  "ADVAPI32.dll": 10
+ },
+ "kernel_api": [
+  "ExitProcess",
+  "ExitThread",
+  "RtlCaptureContext",
+  "RtlLookupFunctionEntry",
+  "RtlPcToFileHeader",
+  "RtlUnwindEx",
+  "RtlVirtualUnwind",
+  "SendMessageW",
+  "SetEvent",
+  "SetFilePointerEx",
+  "SetLastError",
+  "SetStdHandle",
+  "SetThreadAffinityMask",
+  "SetThreadPriority",
+  "SetUnhandledExceptionFilter"
+ ],
+ "win32_hot": [
+  "CreateEventW",
+  "CreateFileW",
+  "CreateProcessW",
+  "CreateThread",
+  "GetProcAddress",
+  "GetTickCount",
+  "IsDebuggerPresent",
+  "LoadLibraryExW",
+  "LoadLibraryW",
+  "OutputDebugStringA",
+  "QueryPerformanceCounter",
+  "RegDeleteKeyW",
+  "RegOpenKeyExW",
+  "RegisterWaitForSingleObject",
+  "VirtualAlloc",
+  "VirtualProtect",
+  "WaitForSingleObjectEx",
+  "WriteFile"
+ ],
+ "crypto_api": [],
+ "net_api": [],
+ "strings": {
+  "device": [],
+  "dosdevice": [],
+  "pipe": [],
+  "mutex": [],
+  "registry": [],
+  "driver": [
+   "h\\drivers\\ACE-BASE.sys",
+   "\\drivers\\ACE-GAME.sys"
+  ],
+  "dll": [
+   "shell32.dll",
+   "kernel32.dll",
+   "combase.dll",
+   "advapi32.dll",
+   "mscoree.dll",
+   "KERNEL32.dll",
+   "USER32.dll",
+   "SHELL32.dll",
+   "ole32.dll",
+   "ADVAPI32.dll"
+  ],
+  "url": [],
+  "api": [
+   "RtlCaptureContext",
+   "RtlLookupFunctionEntry",
+   "RtlVirtualUnwind",
+   "RtlUnwindEx",
+   "RtlPcToFileHeader"
+  ]
+ }
+}

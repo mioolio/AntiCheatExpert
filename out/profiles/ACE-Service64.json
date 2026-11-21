@@ -1,0 +1,210 @@
+{
+ "path": "ACE-Service64.exe",
+ "size": 3251672,
+ "subsystem": 2,
+ "linker": "14.43",
+ "timestamp": 1784614010,
+ "pdb": null,
+ "sections": [
+  [
+   ".text",
+   2066620,
+   2066944
+  ],
+  [
+   ".rdata",
+   806570,
+   806912
+  ],
+  [
+   ".data",
+   69068,
+   49664
+  ],
+  [
+   ".pdata",
+   115632,
+   115712
+  ],
+  [
+   ".detourc",
+   8656,
+   8704
+  ],
+  [
+   ".detourd",
+   24,
+   512
+  ],
+  [
+   ".rsrc",
+   1376,
+   1536
+  ],
+  [
+   ".reloc",
+   29748,
+   30208
+  ],
+  [
+   ".tvm0",
+   159744,
+   159744
+  ]
+ ],
+ "import_modules": {
+  "SHLWAPI.dll": 8,
+  "VERSION.dll": 5,
+  "WS2_32.dll": 34,
+  "WLDAP32.dll": 17,
+  "CRYPT32.dll": 6,
+  "NETAPI32.dll": 1,
+  "dbghelp.dll": 1,
+  "pdh.dll": 5,
+  "KERNEL32.dll": 198,
+  "USER32.dll": 13,
+  "SHELL32.dll": 2,
+  "ADVAPI32.dll": 41
+ },
+ "kernel_api": [
+  "ExitProcess",
+  "ExitThread",
+  "ExpandEnvironmentStringsA",
+  "RtlCaptureContext",
+  "RtlLookupFunctionEntry",
+  "RtlPcToFileHeader",
+  "RtlUnwind",
+  "RtlUnwindEx",
+  "RtlVirtualUnwind",
+  "SendMessageTimeoutA",
+  "SetConsoleCtrlHandler",
+  "SetConsoleMode",
+  "SetCurrentDirectoryW",
+  "SetEndOfFile",
+  "SetEntriesInAclA",
+  "SetEnvironmentVariableW",
+  "SetEvent",
+  "SetFileAttributesW",
+  "SetFilePointerEx",
+  "SetLastError",
+  "SetNamedPipeHandleState",
+  "SetNamedSecurityInfoA",
+  "SetServiceObjectSecurity",
+  "SetServiceStatus",
+  "SetStdHandle",
+  "SetThreadContext",
+  "SetUnhandledExceptionFilter"
+ ],
+ "win32_hot": [
+  "CreateEventA",
+  "CreateEventW",
+  "CreateFileA",
+  "CreateFileMappingW",
+  "CreateFileW",
+  "CreateMutexA",
+  "CreateMutexW",
+  "CreateProcessW",
+  "CreateServiceW",
+  "CreateThread",
+  "CreateToolhelp32Snapshot",
+  "GetProcAddress",
+  "GetSystemInfo",
+  "GetTickCount",
+  "GetTickCount64",
+  "IsDebuggerPresent",
+  "LoadLibraryA",
+  "LoadLibraryExA",
+  "LoadLibraryExW",
+  "OpenProcess",
+  "OpenProcessToken",
+  "OutputDebugStringA",
+  "OutputDebugStringW",
+  "QueryPerformanceCounter",
+  "ReadFile",
+  "ReadProcessMemory",
+  "RegDeleteValueW",
+  "RegOpenKeyExA",
+  "RegOpenKeyExW",
+  "RegSetValueExA",
+  "StartServiceCtrlDispatcherW",
+  "StartServiceW",
+  "VirtualAlloc",
+  "VirtualProtect",
+  "WSACreateEvent",
+  "WaitForSingleObject",
+  "WaitForSingleObjectEx",
+  "WriteFile"
+ ],
+ "crypto_api": [
+  "CryptAcquireContextA",
+  "CryptAcquireContextW",
+  "CryptCreateHash",
+  "CryptDestroyHash",
+  "CryptGenRandom",
+  "CryptGetHashParam",
+  "CryptHashData",
+  "CryptReleaseContext"
+ ],
+ "net_api": [
+  "WSACloseEvent",
+  "WSACreateEvent",
+  "WSAEnumNetworkEvents",
+  "WSAEventSelect",
+  "WSAIoctl",
+  "WSAResetEvent",
+  "WSAWaitForMultipleEvents"
+ ],
+ "strings": {
+  "device": [],
+  "dosdevice": [
+   "\\\\.\\pipe\\"
+  ],
+  "pipe": [],
+  "mutex": [
+   "Global\\Ver"
+  ],
+  "registry": [
+   "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Services\\",
+   "HKEY_LOCAL_MACHINE",
+   "HKEY_CURRENT_USER",
+   "HKEY_USERS",
+   "HKEY_CLASSES_ROOT",
+   "SOFTWARE\\MicrosoProcessorNameStr"
+  ],
+  "driver": [],
+  "dll": [
+   "kernel32.dll",
+   "mscoree.dll",
+   "ntdll.dll",
+   "xtajit64.dll",
+   "KernelBase.dll",
+   "iphlpapi.dll",
+   "SHLWAPI.dll",
+   "VERSION.dll",
+   "WS2_32.dll",
+   "WLDAP32.dll",
+   "CRYPT32.dll",
+   "NETAPI32.dll",
+   "dbghelp.dll",
+   "pdh.dll",
+   "KERNEL32.dll",
+   "USER32.dll",
+   "SHELL32.dll",
+   "ADVAPI32.dll"
+  ],
+  "url": [
+   "https://%s/%s"
+  ],
+  "api": [
+   "SeDebugPrivilege",
+   "SeLoadDriverPrivilege",
+   "RtlVerifyVersionInfo",
+   "RtlCaptureContext",
+   "RtlLookupFunctionEntry",
+   "RtlVirtualUnwind",
+   "RtlUnwindEx",
+   "RtlPcToFileHeader",
+   "RtlUnwind"
+  ]
+ }
+}
