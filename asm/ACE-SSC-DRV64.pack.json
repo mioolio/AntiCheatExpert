@@ -1,0 +1,76 @@
+{
+ "name": "ACE-SSC-DRV64",
+ "original": "ACE-SSC-DRV64.sys",
+ "size": 1595056,
+ "sha256": "8a126c5df2b8defba8f0cb688db32a99844180bd0962e1cfc7a98cc0fbcde540",
+ "size_of_headers": 1024,
+ "size_of_image": 1593344,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 89885,
+   "raw_size": 90112,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 94208,
+   "vsize": 11688,
+   "raw_size": 11776,
+   "raw_ptr": 91136
+  },
+  {
+   "name": ".data",
+   "va": 106496,
+   "vsize": 2532,
+   "raw_size": 1536,
+   "raw_ptr": 102912
+  },
+  {
+   "name": ".pdata",
+   "va": 110592,
+   "vsize": 4776,
+   "raw_size": 5120,
+   "raw_ptr": 104448
+  },
+  {
+   "name": "PAGE",
+   "va": 118784,
+   "vsize": 7235,
+   "raw_size": 7680,
+   "raw_ptr": 109568
+  },
+  {
+   "name": "INIT",
+   "va": 126976,
+   "vsize": 4642,
+   "raw_size": 5120,
+   "raw_ptr": 117248
+  },
+  {
+   "name": ".rsrc",
+   "va": 135168,
+   "vsize": 912,
+   "raw_size": 1024,
+   "raw_ptr": 122368
+  },
+  {
+   "name": ".reloc",
+   "va": 139264,
+   "vsize": 68,
+   "raw_size": 512,
+   "raw_ptr": 123392
+  },
+  {
+   "name": ".tvm0",
+   "va": 143360,
+   "vsize": 1449984,
+   "raw_size": 1449984,
+   "raw_ptr": 123904
+  }
+ ],
+ "cert_offset": 1573888,
+ "cert_size": 21168
+}

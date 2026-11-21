@@ -1,0 +1,97 @@
+{
+ "name": "ACE-BASE",
+ "original": "ACE-BASE.sys",
+ "size": 4125432,
+ "sha256": "ff81f8087108e566bf75827ddadac666e76dcdf1165280d7622247e5bf6d7715",
+ "size_of_headers": 1024,
+ "size_of_image": 6815744,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 704477,
+   "raw_size": 704512,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 708608,
+   "vsize": 290516,
+   "raw_size": 290816,
+   "raw_ptr": 705536
+  },
+  {
+   "name": ".data",
+   "va": 999424,
+   "vsize": 2689024,
+   "raw_size": 8192,
+   "raw_ptr": 996352
+  },
+  {
+   "name": ".pdata",
+   "va": 3690496,
+   "vsize": 32844,
+   "raw_size": 33280,
+   "raw_ptr": 1004544
+  },
+  {
+   "name": ".CRT",
+   "va": 3727360,
+   "vsize": 216,
+   "raw_size": 512,
+   "raw_ptr": 1037824
+  },
+  {
+   "name": ".gfids",
+   "va": 3731456,
+   "vsize": 124,
+   "raw_size": 512,
+   "raw_ptr": 1038336
+  },
+  {
+   "name": ".giats",
+   "va": 3735552,
+   "vsize": 4,
+   "raw_size": 512,
+   "raw_ptr": 1038848
+  },
+  {
+   "name": "PAGE",
+   "va": 3739648,
+   "vsize": 6397,
+   "raw_size": 6656,
+   "raw_ptr": 1039360
+  },
+  {
+   "name": "INIT",
+   "va": 3747840,
+   "vsize": 8754,
+   "raw_size": 9216,
+   "raw_ptr": 1046016
+  },
+  {
+   "name": ".rsrc",
+   "va": 3760128,
+   "vsize": 1008,
+   "raw_size": 1024,
+   "raw_ptr": 1055232
+  },
+  {
+   "name": ".reloc",
+   "va": 3764224,
+   "vsize": 292,
+   "raw_size": 512,
+   "raw_ptr": 1056256
+  },
+  {
+   "name": ".tvm0",
+   "va": 3768320,
+   "vsize": 3047424,
+   "raw_size": 3047424,
+   "raw_ptr": 1056768
+  }
+ ],
+ "cert_offset": 4104192,
+ "cert_size": 21240
+}

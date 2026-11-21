@@ -1,0 +1,69 @@
+{
+ "name": "ACE-DFS64",
+ "original": "ACE-DFS64.dll",
+ "size": 23234520,
+ "sha256": "01da0d63ecf776b1740af573a5c7fc987b529fd948b42130de5c1a68c95563e4",
+ "size_of_headers": 1024,
+ "size_of_image": 23281664,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 1204256,
+   "raw_size": 1204736,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 1212416,
+   "vsize": 308576,
+   "raw_size": 308736,
+   "raw_ptr": 1205760
+  },
+  {
+   "name": ".data",
+   "va": 1523712,
+   "vsize": 52492,
+   "raw_size": 15872,
+   "raw_ptr": 1514496
+  },
+  {
+   "name": ".pdata",
+   "va": 1576960,
+   "vsize": 38412,
+   "raw_size": 38912,
+   "raw_ptr": 1530368
+  },
+  {
+   "name": ".fptable",
+   "va": 1617920,
+   "vsize": 256,
+   "raw_size": 512,
+   "raw_ptr": 1569280
+  },
+  {
+   "name": ".rsrc",
+   "va": 1622016,
+   "vsize": 1368,
+   "raw_size": 1536,
+   "raw_ptr": 1569792
+  },
+  {
+   "name": ".reloc",
+   "va": 1626112,
+   "vsize": 4612,
+   "raw_size": 5120,
+   "raw_ptr": 1571328
+  },
+  {
+   "name": ".tvm0",
+   "va": 1634304,
+   "vsize": 21647360,
+   "raw_size": 21647360,
+   "raw_ptr": 1576448
+  }
+ ],
+ "cert_offset": 23223808,
+ "cert_size": 10712
+}

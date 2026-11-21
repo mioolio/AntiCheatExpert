@@ -1,0 +1,69 @@
+{
+ "name": "ACE-Trace",
+ "original": "ACE-Trace.dll",
+ "size": 2377608,
+ "sha256": "76343e39cf7cb1315349bfa994fd26bc0c16ec5127d5f4b898ea3e3d84f699db",
+ "size_of_headers": 1024,
+ "size_of_image": 2416640,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 1430582,
+   "raw_size": 1431040,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 1437696,
+   "vsize": 472520,
+   "raw_size": 472576,
+   "raw_ptr": 1432064
+  },
+  {
+   "name": ".data",
+   "va": 1912832,
+   "vsize": 184724,
+   "raw_size": 153088,
+   "raw_ptr": 1904640
+  },
+  {
+   "name": ".pdata",
+   "va": 2101248,
+   "vsize": 83760,
+   "raw_size": 83968,
+   "raw_ptr": 2057728
+  },
+  {
+   "name": ".gfids",
+   "va": 2187264,
+   "vsize": 2704,
+   "raw_size": 3072,
+   "raw_ptr": 2141696
+  },
+  {
+   "name": ".rsrc",
+   "va": 2191360,
+   "vsize": 1304,
+   "raw_size": 1536,
+   "raw_ptr": 2144768
+  },
+  {
+   "name": ".reloc",
+   "va": 2195456,
+   "vsize": 28120,
+   "raw_size": 28160,
+   "raw_ptr": 2146304
+  },
+  {
+   "name": ".tvm0",
+   "va": 2224128,
+   "vsize": 192512,
+   "raw_size": 192512,
+   "raw_ptr": 2174464
+  }
+ ],
+ "cert_offset": 2366976,
+ "cert_size": 10632
+}

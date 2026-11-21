@@ -1,0 +1,76 @@
+{
+ "name": "SGuardUpdate64",
+ "original": "SGuardUpdate64.exe",
+ "size": 4114904,
+ "sha256": "42f8ee16ed347ec11dff311c015289c34d069667bf62bb1923073a900d9eb1b3",
+ "size_of_headers": 1024,
+ "size_of_image": 4149248,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 2384306,
+   "raw_size": 2384384,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 2392064,
+   "vsize": 551762,
+   "raw_size": 551936,
+   "raw_ptr": 2385408
+  },
+  {
+   "name": ".data",
+   "va": 2945024,
+   "vsize": 403052,
+   "raw_size": 379904,
+   "raw_ptr": 2937344
+  },
+  {
+   "name": ".pdata",
+   "va": 3350528,
+   "vsize": 135876,
+   "raw_size": 136192,
+   "raw_ptr": 3317248
+  },
+  {
+   "name": ".tls",
+   "va": 3489792,
+   "vsize": 9,
+   "raw_size": 512,
+   "raw_ptr": 3453440
+  },
+  {
+   "name": ".gfids",
+   "va": 3493888,
+   "vsize": 700,
+   "raw_size": 1024,
+   "raw_ptr": 3453952
+  },
+  {
+   "name": ".rsrc",
+   "va": 3497984,
+   "vsize": 2152,
+   "raw_size": 2560,
+   "raw_ptr": 3454976
+  },
+  {
+   "name": ".reloc",
+   "va": 3502080,
+   "vsize": 27820,
+   "raw_size": 28160,
+   "raw_ptr": 3457536
+  },
+  {
+   "name": ".tvm0",
+   "va": 3530752,
+   "vsize": 618496,
+   "raw_size": 618496,
+   "raw_ptr": 3485696
+  }
+ ],
+ "cert_offset": 4104192,
+ "cert_size": 10712
+}

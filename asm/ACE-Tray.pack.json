@@ -1,0 +1,76 @@
+{
+ "name": "ACE-Tray",
+ "original": "ACE-Tray.exe",
+ "size": 7675792,
+ "sha256": "41fb7c79ba9acfaec6d9086515eb0f3daa2ca0f1caf85db33220e5275955fc65",
+ "size_of_headers": 1024,
+ "size_of_image": 7708672,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 1965330,
+   "raw_size": 1965568,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 1970176,
+   "vsize": 781550,
+   "raw_size": 781824,
+   "raw_ptr": 1966592
+  },
+  {
+   "name": ".data",
+   "va": 2752512,
+   "vsize": 59548,
+   "raw_size": 33792,
+   "raw_ptr": 2748416
+  },
+  {
+   "name": ".pdata",
+   "va": 2813952,
+   "vsize": 113988,
+   "raw_size": 114176,
+   "raw_ptr": 2782208
+  },
+  {
+   "name": ".tls",
+   "va": 2928640,
+   "vsize": 305,
+   "raw_size": 512,
+   "raw_ptr": 2896384
+  },
+  {
+   "name": ".gfids",
+   "va": 2932736,
+   "vsize": 2628,
+   "raw_size": 3072,
+   "raw_ptr": 2896896
+  },
+  {
+   "name": ".K{b",
+   "va": 2936832,
+   "vsize": 3757844,
+   "raw_size": 3758080,
+   "raw_ptr": 2899968
+  },
+  {
+   "name": ".reloc",
+   "va": 6696960,
+   "vsize": 30052,
+   "raw_size": 30208,
+   "raw_ptr": 6658048
+  },
+  {
+   "name": ".rsrc",
+   "va": 6729728,
+   "vsize": 976661,
+   "raw_size": 976896,
+   "raw_ptr": 6688256
+  }
+ ],
+ "cert_offset": 7665152,
+ "cert_size": 10640
+}

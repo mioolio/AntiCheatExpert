@@ -1,0 +1,55 @@
+{
+ "name": "Uninstaller",
+ "original": "Uninstaller.exe",
+ "size": 904520,
+ "sha256": "1d2329644770485530e03d0299168b16dd7c6ce175c289a21def5b24b2c8159c",
+ "size_of_headers": 1024,
+ "size_of_image": 913408,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 319576,
+   "raw_size": 320000,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 327680,
+   "vsize": 122818,
+   "raw_size": 122880,
+   "raw_ptr": 321024
+  },
+  {
+   "name": ".data",
+   "va": 450560,
+   "vsize": 24876,
+   "raw_size": 18432,
+   "raw_ptr": 443904
+  },
+  {
+   "name": ".pdata",
+   "va": 479232,
+   "vsize": 15096,
+   "raw_size": 15360,
+   "raw_ptr": 462336
+  },
+  {
+   "name": ".rsrc",
+   "va": 495616,
+   "vsize": 412960,
+   "raw_size": 413184,
+   "raw_ptr": 477696
+  },
+  {
+   "name": ".reloc",
+   "va": 909312,
+   "vsize": 2604,
+   "raw_size": 3072,
+   "raw_ptr": 890880
+  }
+ ],
+ "cert_offset": 893952,
+ "cert_size": 10568
+}

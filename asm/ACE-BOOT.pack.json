@@ -1,0 +1,69 @@
+{
+ "name": "ACE-BOOT",
+ "original": "ACE-BOOT.sys",
+ "size": 1996392,
+ "sha256": "d844d17c876684401ceaf0e6d68fce2a4fb38b4090fbbfde12ffaf91e18cb63b",
+ "size_of_headers": 1024,
+ "size_of_image": 2662400,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 385564,
+   "raw_size": 386048,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 393216,
+   "vsize": 49964,
+   "raw_size": 50176,
+   "raw_ptr": 387072
+  },
+  {
+   "name": ".data",
+   "va": 446464,
+   "vsize": 666265,
+   "raw_size": 1536,
+   "raw_ptr": 437248
+  },
+  {
+   "name": ".pdata",
+   "va": 1114112,
+   "vsize": 21804,
+   "raw_size": 22016,
+   "raw_ptr": 438784
+  },
+  {
+   "name": "INIT",
+   "va": 1138688,
+   "vsize": 4686,
+   "raw_size": 5120,
+   "raw_ptr": 460800
+  },
+  {
+   "name": ".rsrc",
+   "va": 1146880,
+   "vsize": 1000,
+   "raw_size": 1024,
+   "raw_ptr": 465920
+  },
+  {
+   "name": ".reloc",
+   "va": 1150976,
+   "vsize": 816,
+   "raw_size": 1024,
+   "raw_ptr": 466944
+  },
+  {
+   "name": ".tvm0",
+   "va": 1155072,
+   "vsize": 1507328,
+   "raw_size": 1507328,
+   "raw_ptr": 467968
+  }
+ ],
+ "cert_offset": 1975296,
+ "cert_size": 21096
+}

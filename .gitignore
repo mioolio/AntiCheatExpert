@@ -1,11 +1,12 @@
-# build outputs are regenerated locally
-work/
+﻿work/
 out_rebuild/
 __pycache__/
 *.pyc
 *.obj
 *.lst
-*.bin
+build_out/
 *.sys
 *.dll
 *.exe
+!asm/*.hdr.bin
+!asm/*.sig.bin

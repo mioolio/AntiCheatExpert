@@ -71,7 +71,31 @@
 
 ---
 
-## 4. 快速开始
+## 4. 从仓库重建（不需要原始文件）
+
+仓库内含**完整汇编源**与重建元数据，下载后即可编出与原厂逐字节相同的文件：
+
+`
+asm/<name>.asm        最小三个组件的明文汇编（GitHub 可直接查看）
+asm/<name>.asm.gz     其余组件的汇编源
+asm/<name>.hdr.bin    原始 PE 头 1024 字节
+asm/<name>.sig.bin    Authenticode 签名块
+asm/<name>.pack.json  段表、SizeOfImage、org、原始 SHA-256
+`
+
+`powershell
+pip install capstone pefile
+ = '<path>\ml64.exe'
+git clone https://github.com/mioolio/AntiCheatExpert
+cd AntiCheatExpert
+python tools\rebuild_from_repo.py ACE-BASE      # 单个
+python tools\rebuild_from_repo.py --all         # 全部 19 个
+`
+
+产物在 uild_out\，输出 IDENTICAL 即与原文件逐字节相同（SHA-256 由 pack.json 校验）。
+实测 19/19 全部 IDENTICAL。
+
+## 5. 快速开始
 
 ```powershell
 pip install capstone pefile
@@ -97,7 +121,7 @@ python tools\re_report.py              # 重新生成 docs/15
 
 ---
 
-## 5. 方法论要点
+## 6. 方法论要点
 
 1. **严格分区**：把每个可执行段切成字节单元，和 = 段大小，无空洞无重叠。
 2. **平铺 RVA 空间**：`org` 起点到 `SizeOfImage`，段间虚拟空洞用 `db` 填补，RIP 相对引用与分支目标自然正确。
@@ -107,7 +131,7 @@ python tools\re_report.py              # 重新生成 docs/15
 
 ---
 
-## 6. 声明
+## 7. 声明
 
 - 仓库只含文本（源码、脚本、文档、清单）与结构化 JSON，**不含任何可执行二进制**。
 - 分析对象为用户自备的软件副本，用于理解商业反作弊驱动的接口设计、混淆与完整性保护机制。

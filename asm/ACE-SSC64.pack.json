@@ -1,0 +1,69 @@
+{
+ "name": "ACE-SSC64",
+ "original": "ACE-SSC64.dll",
+ "size": 8193416,
+ "sha256": "48914b194751ef46cab0171a70e223f501674ed6a0c451c6d2b81cff37a58b30",
+ "size_of_headers": 1024,
+ "size_of_image": 8228864,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 1919579,
+   "raw_size": 1920000,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 1925120,
+   "vsize": 337420,
+   "raw_size": 337920,
+   "raw_ptr": 1921024
+  },
+  {
+   "name": ".data",
+   "va": 2265088,
+   "vsize": 88580,
+   "raw_size": 60416,
+   "raw_ptr": 2258944
+  },
+  {
+   "name": ".pdata",
+   "va": 2355200,
+   "vsize": 85140,
+   "raw_size": 85504,
+   "raw_ptr": 2319360
+  },
+  {
+   "name": ".fptable",
+   "va": 2441216,
+   "vsize": 256,
+   "raw_size": 512,
+   "raw_ptr": 2404864
+  },
+  {
+   "name": ".rsrc",
+   "va": 2445312,
+   "vsize": 1360,
+   "raw_size": 1536,
+   "raw_ptr": 2405376
+  },
+  {
+   "name": ".reloc",
+   "va": 2449408,
+   "vsize": 12684,
+   "raw_size": 12800,
+   "raw_ptr": 2406912
+  },
+  {
+   "name": ".tvm0",
+   "va": 2465792,
+   "vsize": 5763072,
+   "raw_size": 5763072,
+   "raw_ptr": 2419712
+  }
+ ],
+ "cert_offset": 8182784,
+ "cert_size": 10632
+}

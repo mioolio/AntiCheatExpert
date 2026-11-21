@@ -1,0 +1,76 @@
+{
+ "name": "ACE-Service64",
+ "original": "ACE-Service64.exe",
+ "size": 3251672,
+ "sha256": "8fe1d8d4935b4cd572ac8eb3a46c188c83e1bfda2259681098211e55286f76fe",
+ "size_of_headers": 1024,
+ "size_of_image": 3280896,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 2066620,
+   "raw_size": 2066944,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 2072576,
+   "vsize": 806570,
+   "raw_size": 806912,
+   "raw_ptr": 2067968
+  },
+  {
+   "name": ".data",
+   "va": 2879488,
+   "vsize": 69068,
+   "raw_size": 49664,
+   "raw_ptr": 2874880
+  },
+  {
+   "name": ".pdata",
+   "va": 2949120,
+   "vsize": 115632,
+   "raw_size": 115712,
+   "raw_ptr": 2924544
+  },
+  {
+   "name": ".detourc",
+   "va": 3067904,
+   "vsize": 8656,
+   "raw_size": 8704,
+   "raw_ptr": 3040256
+  },
+  {
+   "name": ".detourd",
+   "va": 3080192,
+   "vsize": 24,
+   "raw_size": 512,
+   "raw_ptr": 3048960
+  },
+  {
+   "name": ".rsrc",
+   "va": 3084288,
+   "vsize": 1376,
+   "raw_size": 1536,
+   "raw_ptr": 3049472
+  },
+  {
+   "name": ".reloc",
+   "va": 3088384,
+   "vsize": 29748,
+   "raw_size": 30208,
+   "raw_ptr": 3051008
+  },
+  {
+   "name": ".tvm0",
+   "va": 3121152,
+   "vsize": 159744,
+   "raw_size": 159744,
+   "raw_ptr": 3081216
+  }
+ ],
+ "cert_offset": 3240960,
+ "cert_size": 10712
+}

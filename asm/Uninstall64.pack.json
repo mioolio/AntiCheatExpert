@@ -1,0 +1,55 @@
+{
+ "name": "Uninstall64",
+ "original": "Uninstall64.exe",
+ "size": 499032,
+ "sha256": "25e9670c6e8f189d48fe98c026d6c80fdbcfd98bbd253c505f02c7fd38eee83d",
+ "size_of_headers": 1024,
+ "size_of_image": 507904,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 231080,
+   "raw_size": 231424,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 237568,
+   "vsize": 93792,
+   "raw_size": 94208,
+   "raw_ptr": 232448
+  },
+  {
+   "name": ".data",
+   "va": 331776,
+   "vsize": 16704,
+   "raw_size": 9728,
+   "raw_ptr": 326656
+  },
+  {
+   "name": ".pdata",
+   "va": 352256,
+   "vsize": 15600,
+   "raw_size": 15872,
+   "raw_ptr": 336384
+  },
+  {
+   "name": ".rsrc",
+   "va": 368640,
+   "vsize": 132520,
+   "raw_size": 132608,
+   "raw_ptr": 352256
+  },
+  {
+   "name": ".reloc",
+   "va": 503808,
+   "vsize": 3280,
+   "raw_size": 3584,
+   "raw_ptr": 484864
+  }
+ ],
+ "cert_offset": 488448,
+ "cert_size": 10584
+}

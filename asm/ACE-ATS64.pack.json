@@ -1,0 +1,76 @@
+{
+ "name": "ACE-ATS64",
+ "original": "ACE-ATS64.dll",
+ "size": 9214424,
+ "sha256": "3642bee5b2ff9849ff79803474d3bbc4509a43868859656fd7f665fdbc1b5706",
+ "size_of_headers": 1024,
+ "size_of_image": 9699328,
+ "org": 65536,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 65536,
+   "vsize": 1263534,
+   "raw_size": 1263616,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 1376256,
+   "vsize": 665256,
+   "raw_size": 665600,
+   "raw_ptr": 1264640
+  },
+  {
+   "name": ".data",
+   "va": 2097152,
+   "vsize": 73852,
+   "raw_size": 51200,
+   "raw_ptr": 1930240
+  },
+  {
+   "name": ".pdata",
+   "va": 2228224,
+   "vsize": 60144,
+   "raw_size": 60416,
+   "raw_ptr": 1981440
+  },
+  {
+   "name": ".gfids",
+   "va": 2293760,
+   "vsize": 3032,
+   "raw_size": 3072,
+   "raw_ptr": 2041856
+  },
+  {
+   "name": ".tls",
+   "va": 2359296,
+   "vsize": 21,
+   "raw_size": 512,
+   "raw_ptr": 2044928
+  },
+  {
+   "name": ".rsrc",
+   "va": 2424832,
+   "vsize": 1368,
+   "raw_size": 1536,
+   "raw_ptr": 2045440
+  },
+  {
+   "name": ".reloc",
+   "va": 2490368,
+   "vsize": 13300,
+   "raw_size": 13312,
+   "raw_ptr": 2046976
+  },
+  {
+   "name": ".tvm0",
+   "va": 2555904,
+   "vsize": 7143424,
+   "raw_size": 7143424,
+   "raw_ptr": 2060288
+  }
+ ],
+ "cert_offset": 9203712,
+ "cert_size": 10712
+}

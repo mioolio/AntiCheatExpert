@@ -1,0 +1,111 @@
+{
+ "name": "ACE-DRV64",
+ "original": "ACE-DRV64.dll",
+ "size": 25075160,
+ "sha256": "4f7984c55549c8288bfde3cc050d0d06b1ed8dd3d1c57d9aca359cacea2c76b4",
+ "size_of_headers": 1024,
+ "size_of_image": 53268480,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 5062980,
+   "raw_size": 0,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 5070848,
+   "vsize": 1944330,
+   "raw_size": 0,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".data",
+   "va": 7016448,
+   "vsize": 632668,
+   "raw_size": 0,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".pdata",
+   "va": 7651328,
+   "vsize": 249636,
+   "raw_size": 0,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".tls",
+   "va": 7901184,
+   "vsize": 337,
+   "raw_size": 0,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".detourc",
+   "va": 7905280,
+   "vsize": 8688,
+   "raw_size": 0,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".detourd",
+   "va": 7917568,
+   "vsize": 24,
+   "raw_size": 0,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".gfids",
+   "va": 7921664,
+   "vsize": 3928,
+   "raw_size": 0,
+   "raw_ptr": 1024
+  },
+  {
+   "name": "_RDATA",
+   "va": 7925760,
+   "vsize": 32560,
+   "raw_size": 0,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".;9C",
+   "va": 7958528,
+   "vsize": 11190625,
+   "raw_size": 0,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".(_]",
+   "va": 19152896,
+   "vsize": 4936,
+   "raw_size": 5120,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".A;6",
+   "va": 19161088,
+   "vsize": 25055644,
+   "raw_size": 25055744,
+   "raw_ptr": 6144
+  },
+  {
+   "name": ".reloc",
+   "va": 44220416,
+   "vsize": 52,
+   "raw_size": 512,
+   "raw_ptr": 25061888
+  },
+  {
+   "name": ".rsrc",
+   "va": 44224512,
+   "vsize": 9041048,
+   "raw_size": 2048,
+   "raw_ptr": 25062400
+  }
+ ],
+ "cert_offset": 25064448,
+ "cert_size": 10712
+}

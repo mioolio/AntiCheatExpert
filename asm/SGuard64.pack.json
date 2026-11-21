@@ -1,0 +1,76 @@
+{
+ "name": "SGuard64",
+ "original": "SGuard64.exe",
+ "size": 7902680,
+ "sha256": "349acb95d8308ac10884e4a37c9a2c2b3b557e469646e7eb301b9208786e9b72",
+ "size_of_headers": 1024,
+ "size_of_image": 7938048,
+ "org": 4096,
+ "sections": [
+  {
+   "name": ".text",
+   "va": 4096,
+   "vsize": 3275822,
+   "raw_size": 3276288,
+   "raw_ptr": 1024
+  },
+  {
+   "name": ".rdata",
+   "va": 3280896,
+   "vsize": 1084812,
+   "raw_size": 1084928,
+   "raw_ptr": 3277312
+  },
+  {
+   "name": ".data",
+   "va": 4366336,
+   "vsize": 110708,
+   "raw_size": 83456,
+   "raw_ptr": 4362240
+  },
+  {
+   "name": ".pdata",
+   "va": 4481024,
+   "vsize": 166596,
+   "raw_size": 166912,
+   "raw_ptr": 4445696
+  },
+  {
+   "name": ".tls",
+   "va": 4648960,
+   "vsize": 9,
+   "raw_size": 512,
+   "raw_ptr": 4612608
+  },
+  {
+   "name": ".gfids",
+   "va": 4653056,
+   "vsize": 3044,
+   "raw_size": 3072,
+   "raw_ptr": 4613120
+  },
+  {
+   "name": ".rsrc",
+   "va": 4657152,
+   "vsize": 2544,
+   "raw_size": 2560,
+   "raw_ptr": 4616192
+  },
+  {
+   "name": ".reloc",
+   "va": 4661248,
+   "vsize": 37204,
+   "raw_size": 37376,
+   "raw_ptr": 4618752
+  },
+  {
+   "name": ".tvm0",
+   "va": 4702208,
+   "vsize": 3235840,
+   "raw_size": 3235840,
+   "raw_ptr": 4656128
+  }
+ ],
+ "cert_offset": 7891968,
+ "cert_size": 10712
+}
