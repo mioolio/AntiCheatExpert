@@ -1,11 +1,7 @@
 # 编译方法（BUILD）
 
-本仓库有两条构建路线：
-
-- **通用路线**（`tools/pe_rebuild.py`）：任意 ACE 组件 → 逐字节相同的重建文件。本文主角。
-- **专用路线**（`build.ps1`）：只针对 `ACE-ADVT.sys`，多了"头部字段级重建 + 签名块转录 + 验收"三件事。
-
-两者都用微软 MASM（`ml64.exe`）作为汇编器。
+本仓库只有一条构建路线：`tools/pe_rebuild.py`，把任意 ACE 组件重建为逐字节相同的文件。
+汇编器是微软 MASM（`ml64.exe`）。`ACE-ADVT.sys` 的专用管线在独立仓库 mioolio/ACE-ADVT。
 
 ---
 
@@ -90,36 +86,7 @@ python tools\diff_report.py <原文件> out_rebuild\<name>\rebuilt.bin
 
 ---
 
-## 2. 专用路线：`ACE-ADVT.sys`
-
-```powershell
-$env:ADVT_TARGET = 'D:\samples\ACE-ADVT.sys'
-$env:ML64        = '<path>\ml64.exe'
-.\build.ps1 -Fresh
-```
-
-六阶段：资产转录 → 头部字段级重建（1024 字节零差异）→ 分区分析 → `ml64` 汇编+重定位+打包+收敛 → 验收 → 汇总。
-
-参数：`-Fresh`（从零）、`-Nasm`（备用 NASM 工具链）、`-SkipVerify`。
-
-验收：
-
-```powershell
-python tools\verify.py
-```
-
-期望：
-
-```
-identical   True  differing bytes 0
-checksum    stored 0x124e80 recomputed 0x124e80
-signature   Valid  CN=Microsoft Windows Hardware Compatibility Publisher
-coverage    42528 instructions, 41934 from mnemonics (98.6%), 594 raw
-```
-
----
-
-## 3. 只用分析，不做重建
+## 2. 只用分析，不做重建
 
 ```powershell
 python tools\analyze.py                 # ADVT 分区 + 全量清单 out/listing/ACE-ADVT.txt
@@ -133,7 +100,7 @@ python tools\component_profile.py <bin> # 单个组件画像
 
 ---
 
-## 4. 常见问题
+## 3. 常见问题
 
 | 现象 | 原因 | 处理 |
 |---|---|---|
@@ -147,7 +114,7 @@ python tools\component_profile.py <bin> # 单个组件画像
 
 ---
 
-## 5. 产物说明
+## 4. 产物说明
 
 `out_rebuild/<name>/` 下：
 

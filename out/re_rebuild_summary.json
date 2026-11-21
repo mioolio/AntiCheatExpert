@@ -1,17 +1,5 @@
 [
  {
-  "component": "ACE-ADVT",
-  "size": 1168048,
-  "sha256": "4c144c62acb297ce536f89caa9727ecd6aabc5d048a66a53eb9a937e51523ff8",
-  "ref_sha256": "4c144c62acb297ce536f89caa9727ecd6aabc5d048a66a53eb9a937e51523ff8",
-  "identical": true,
-  "differing_bytes": 0,
-  "insns": 43583,
-  "mnemonic": 34282,
-  "rounds": 4,
-  "target": "<TARGET_SYS>"
- },
- {
   "component": "ACE-ATS64",
   "size": 9214424,
   "sha256": "3642bee5b2ff9849ff79803474d3bbc4509a43868859656fd7f665fdbc1b5706",
