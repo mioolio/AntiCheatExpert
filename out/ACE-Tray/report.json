@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\ACE-Tray.exe",
+ "size": 7675792,
+ "sha256": "41fb7c79ba9acfaec6d9086515eb0f3daa2ca0f1caf85db33220e5275955fc65",
+ "ref_sha256": "41fb7c79ba9acfaec6d9086515eb0f3daa2ca0f1caf85db33220e5275955fc65",
+ "md5": "02b1108a09b72ee5540d4cc5d5620c24",
+ "ref_md5": "02b1108a09b72ee5540d4cc5d5620c24",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 7682131,
+ "ref_checksum": 7682131,
+ "insns": 511268,
+ "mnemonic": 393925,
+ "raw": 117343,
+ "rounds": 9
+}

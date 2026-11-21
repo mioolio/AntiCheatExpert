@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\ACE-Service64.exe",
+ "size": 3251672,
+ "sha256": "8fe1d8d4935b4cd572ac8eb3a46c188c83e1bfda2259681098211e55286f76fe",
+ "ref_sha256": "8fe1d8d4935b4cd572ac8eb3a46c188c83e1bfda2259681098211e55286f76fe",
+ "md5": "e7364b9ac634dfb7063bb4c0760102b5",
+ "ref_md5": "e7364b9ac634dfb7063bb4c0760102b5",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 3293447,
+ "ref_checksum": 3293447,
+ "insns": 533835,
+ "mnemonic": 417105,
+ "raw": 116730,
+ "rounds": 5
+}

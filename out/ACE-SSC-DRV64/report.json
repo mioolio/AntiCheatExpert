@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\SGuard\\x64\\Plugins\\ACE-SSC-DRV64.sys",
+ "size": 1595056,
+ "sha256": "8a126c5df2b8defba8f0cb688db32a99844180bd0962e1cfc7a98cc0fbcde540",
+ "ref_sha256": "8a126c5df2b8defba8f0cb688db32a99844180bd0962e1cfc7a98cc0fbcde540",
+ "md5": "51986ee217f84c1d3f22b881e245de21",
+ "ref_md5": "51986ee217f84c1d3f22b881e245de21",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 1608785,
+ "ref_checksum": 1608785,
+ "insns": 7561,
+ "mnemonic": 5487,
+ "raw": 2074,
+ "rounds": 5
+}

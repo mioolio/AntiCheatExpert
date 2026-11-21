@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\SGuard\\x64\\ACE-Safe.dll",
+ "size": 8997336,
+ "sha256": "4ff0c2e74c94f3ddcb99ebd76d233d3c4af0cb22650c961faaebc7b44dc29766",
+ "ref_sha256": "4ff0c2e74c94f3ddcb99ebd76d233d3c4af0cb22650c961faaebc7b44dc29766",
+ "md5": "122f8336fe23d5668cb9497953be495e",
+ "ref_md5": "122f8336fe23d5668cb9497953be495e",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 9002527,
+ "ref_checksum": 9048454,
+ "insns": 913582,
+ "mnemonic": 726635,
+ "raw": 186947,
+ "rounds": 1
+}

@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\SGuard\\x64\\SGuard64.exe",
+ "size": 7902680,
+ "sha256": "349acb95d8308ac10884e4a37c9a2c2b3b557e469646e7eb301b9208786e9b72",
+ "ref_sha256": "349acb95d8308ac10884e4a37c9a2c2b3b557e469646e7eb301b9208786e9b72",
+ "md5": "b1e2e0ad586c0a9ab0ed5fc9762cc785",
+ "ref_md5": "b1e2e0ad586c0a9ab0ed5fc9762cc785",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 7928100,
+ "ref_checksum": 7903298,
+ "insns": 838280,
+ "mnemonic": 641894,
+ "raw": 196386,
+ "rounds": 6
+}

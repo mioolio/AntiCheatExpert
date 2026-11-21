@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\SGuard\\x64\\Uninstall64.exe",
+ "size": 499032,
+ "sha256": "25e9670c6e8f189d48fe98c026d6c80fdbcfd98bbd253c505f02c7fd38eee83d",
+ "ref_sha256": "25e9670c6e8f189d48fe98c026d6c80fdbcfd98bbd253c505f02c7fd38eee83d",
+ "md5": "76112f2c3f5fc9b667ab48581a1d9c94",
+ "ref_md5": "76112f2c3f5fc9b667ab48581a1d9c94",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 559414,
+ "ref_checksum": 559414,
+ "insns": 61965,
+ "mnemonic": 46434,
+ "raw": 15531,
+ "rounds": 1
+}

@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\ACE-BASE.sys",
+ "size": 4125432,
+ "sha256": "ff81f8087108e566bf75827ddadac666e76dcdf1165280d7622247e5bf6d7715",
+ "ref_sha256": "ff81f8087108e566bf75827ddadac666e76dcdf1165280d7622247e5bf6d7715",
+ "md5": "294e8e2ab7af25a538776406f1d61fd9",
+ "ref_md5": "294e8e2ab7af25a538776406f1d61fd9",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 4188761,
+ "ref_checksum": 4188761,
+ "insns": 145588,
+ "mnemonic": 108788,
+ "raw": 36800,
+ "rounds": 10
+}

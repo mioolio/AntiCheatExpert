@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\SGuard\\x64\\Plugins\\ACE-ATS64.dll",
+ "size": 9214424,
+ "sha256": "3642bee5b2ff9849ff79803474d3bbc4509a43868859656fd7f665fdbc1b5706",
+ "ref_sha256": "3642bee5b2ff9849ff79803474d3bbc4509a43868859656fd7f665fdbc1b5706",
+ "md5": "b0569538912da1625b163419984453f7",
+ "ref_md5": "b0569538912da1625b163419984453f7",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 9261407,
+ "ref_checksum": 9236999,
+ "insns": 298097,
+ "mnemonic": 233135,
+ "raw": 64962,
+ "rounds": 5
+}

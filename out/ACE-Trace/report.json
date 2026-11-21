@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\SGuard\\x64\\ACE-Trace.dll",
+ "size": 2377608,
+ "sha256": "76343e39cf7cb1315349bfa994fd26bc0c16ec5127d5f4b898ea3e3d84f699db",
+ "ref_sha256": "76343e39cf7cb1315349bfa994fd26bc0c16ec5127d5f4b898ea3e3d84f699db",
+ "md5": "d5f05214fdb62557cc1168143cef5d5f",
+ "ref_md5": "d5f05214fdb62557cc1168143cef5d5f",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 2436732,
+ "ref_checksum": 2405242,
+ "insns": 368108,
+ "mnemonic": 278311,
+ "raw": 89797,
+ "rounds": 1
+}

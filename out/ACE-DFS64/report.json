@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\SGuard\\x64\\Plugins\\ACE-DFS64.dll",
+ "size": 23234520,
+ "sha256": "01da0d63ecf776b1740af573a5c7fc987b529fd948b42130de5c1a68c95563e4",
+ "ref_sha256": "01da0d63ecf776b1740af573a5c7fc987b529fd948b42130de5c1a68c95563e4",
+ "md5": "6ff2a2e79adc36fc563b4ae68dded3ec",
+ "ref_md5": "6ff2a2e79adc36fc563b4ae68dded3ec",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 23281854,
+ "ref_checksum": 23291124,
+ "insns": 172256,
+ "mnemonic": 135858,
+ "raw": 36398,
+ "rounds": 4
+}

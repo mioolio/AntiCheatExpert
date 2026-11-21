@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\SGuard\\x64\\Plugins\\ACE-SSC64.dll",
+ "size": 8193416,
+ "sha256": "48914b194751ef46cab0171a70e223f501674ed6a0c451c6d2b81cff37a58b30",
+ "ref_sha256": "48914b194751ef46cab0171a70e223f501674ed6a0c451c6d2b81cff37a58b30",
+ "md5": "a7476d4a02824fc1c5e5bec07263513f",
+ "ref_md5": "a7476d4a02824fc1c5e5bec07263513f",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 8224142,
+ "ref_checksum": 8250898,
+ "insns": 397492,
+ "mnemonic": 309473,
+ "raw": 88019,
+ "rounds": 5
+}

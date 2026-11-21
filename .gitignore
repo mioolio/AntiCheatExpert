@@ -1,0 +1,11 @@
+# build outputs are regenerated locally
+work/
+out_rebuild/
+__pycache__/
+*.pyc
+*.obj
+*.lst
+*.bin
+*.sys
+*.dll
+*.exe

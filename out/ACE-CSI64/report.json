@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\SGuard\\x64\\Plugins\\ACE-CSI64.dll",
+ "size": 6317016,
+ "sha256": "519b034b26e10d428d4e02835f2f939ff0595d57550a2ee413d9ad81dc2e7f06",
+ "ref_sha256": "519b034b26e10d428d4e02835f2f939ff0595d57550a2ee413d9ad81dc2e7f06",
+ "md5": "2315160287a23abb2844b21702267066",
+ "ref_md5": "2315160287a23abb2844b21702267066",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 6345708,
+ "ref_checksum": 6322122,
+ "insns": 501285,
+ "mnemonic": 380850,
+ "raw": 120435,
+ "rounds": 4
+}

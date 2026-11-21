@@ -1,0 +1,16 @@
+{
+ "target": "<ACE_ROOT>\\SGuard\\x64\\Plugins\\ACE-DRV64.dll",
+ "size": 25075160,
+ "sha256": "4f7984c55549c8288bfde3cc050d0d06b1ed8dd3d1c57d9aca359cacea2c76b4",
+ "ref_sha256": "4f7984c55549c8288bfde3cc050d0d06b1ed8dd3d1c57d9aca359cacea2c76b4",
+ "md5": "f1aaff5fba976daf9198dd74df91755a",
+ "ref_md5": "f1aaff5fba976daf9198dd74df91755a",
+ "identical": true,
+ "differing_bytes": 0,
+ "checksum": 25138549,
+ "ref_checksum": 25119256,
+ "insns": 0,
+ "mnemonic": 0,
+ "raw": 0,
+ "rounds": 1
+}
